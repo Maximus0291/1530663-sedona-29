@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Максим](https://up.htmlacademy.ru/htmlcss/29/user/1530663).
+* Студент: [Максим](https://htmlacademy.ru/profile/id1530663).
 * Наставник: [Виктория Куликова](https://htmlacademy.ru/profile/id293745). 
 
 ---
