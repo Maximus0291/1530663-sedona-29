@@ -1,0 +1,161 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-blue: #81B3D2;
+  --basic-silver: #EEEEEE;
+  --basic-brown: #766357;
+  --basic-white: #ffffff;
+  --basic-dark-silver: #E5E5E5;
+
+  --special: #663d15;
+}
+
+/* Global */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+  /* text-align: center; */
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+/* Welcome */
+
+.welcome {
+  /* text-align: center; */
+  color: var(--basic-black);
+}
+
+/* Features */
+
+.features {
+
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  /* text-align: center; */
+  color: var(--basic-black);
+}
+
+
+
+/* Reasons */
+
+.reason-item1 {
+  /* text-align: center; */
+  font-size: 14px;
+  line-height: 26px;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.reasons-item2 {
+  /* text-align: center; */
+  font-size: 14px;
+  line-height: 26px;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.reasons-item {
+  /* text-align: center; */
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-silver);
+}
+
+/* Appointment */
+
+.appointment {
+  text-align: center;
+  font: inherit;
+  background-color: transparent;
+}
+
+.appointment-button,
+.content-order {
+  background-color: var(--basic-brown);
+  color: var(--basic-white);
+}
+
+.appointment-button-find,
+.content-info  {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  /* text-align: center; */
+}
+
+/* Filters */
+
+/*.price */  {
+  color: var(--basic-white);
+}
+
+/* Price */
+
+
+
+/* Sort */
+
+.sort a {
+  color: var(--basic-black);
+}
+
+.sort-price a {
+  color: var(--basic-blue);
+}
+
+.sort-type a {
+  color: var(--basic-black);
+}
+
+/* Content */
+
+.sort,
+.content {
+  background-color: var(--basic-white);
+}
+
+

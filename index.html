@@ -1,105 +1,134 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>SEDONA</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-  <header>
-      <nav>
-        <a>
-        <img src="file:///C:/Users/savri/Desktop/project_sedona/logo.svg" width="1200" height="509"  alt="логотип проекта Седона">
+  <body class="page-body">
+  <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+        <img src="file:///C:/Users/savri/Desktop/project_sedona/logo.svg" width="138" height="70"  alt="логотип проекта Седона">
         </a>
-        <ul>
-          <li><a href="blank.html">Информация</li>
-          <li><a href="media.html">Фото и видео</li>
-          <li><a href="map.html">Карта штата</li>
-          <li><a href="hotels.html">Гостиницы</li>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+        <ul class="site-navigation">
+          <li><a href="blank.html">Информация</a></li>
+          <li><a href="media.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
+      </div>
+    </div>
       </nav>
   </header>
 
-  <main>
-       <h1>СЕДОНА</h1> <!--В шаблоне этого нет,будет скрыто-->
-
-       <h2>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
-
-       <p>РАССМОТРИМ 5 ПРИЧИН,ПО КОТОРЫМ СЕДОНА КРУЧЕ,ЧЕМ ГРАНД КАНЬОН</p>
-
-       <section>
-         <h2>НАСТОЯЩИЙ ГОРОДОК</h2>
-         <p>№1</p>
-         <p>СЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-         <img src="file:///C:/Users/savri/Desktop/project_sedona/reason1.png" width="800" height="256" alt="Причина 1">
+  <!--<h1>СЕДОНА</h1>-->
+  <main class="container">
+    <img src="D:\project_sedona\1530663-sedona-29\img\page1\background photo.jpg" width="1200" height="509"  alt="Фоновое изображение">
+       <section class="welcome">
+         <h2>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+         <p>РАССМОТРИМ 5 ПРИЧИН,ПО КОТОРЫМ СЕДОНА КРУЧЕ,ЧЕМ ГРАНД КАНЬОН!</p>
        </section>
 
-     <section>
-      <h2>ЗНАКОМСТВО</h2> <!--В шаблоне этого нет,будет скрыто-->
-      <ul>
-        <li>
+       <section class="reason-item1">
+           <h2>НАСТОЯЩИЙ<br>ГОРОДОК</h2>
+           <p>№1</p>
+           <p>СЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,ТАМ<br>ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+           <img src="file:///C:/Users/savri/Desktop/project_sedona/reason1.png" width="800" height="256" alt="Причина 1">
+       </section>
+
+     <!--<h2>ЗНАКОМСТВО</h2> -->
+     <section class="features">
+      <ul class="features-list">
+        <li class="feature-item">
           <h2>ЖИЛЬЕ</h2>
           <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ,КАК В КИНО</p>
         </li>
-        <li>
+        <li class="feature-item">
           <h2>ЕДА</h2>
           <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,ВЫ НЕ РАЗОЧАРУЕТЕСЬ</p>
         </li>
-        <li>
+        <li class="feature-item">
           <h2>СУВЕНИРЫ</h2>
           <p>НЕ ТОЛЬКО КИТАЙСКОГО,НО И МЕСТНОГО ПРОИЗВОДСТВА</p>
         </li>
       </ul>
      </section>
 
-     <section>
-         <h2>ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</h2>
-         <p>№2</p>
-         <p>ДА,ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО<br> ВЫ ОСМЕЛИТЕСЬ</p>
-     <img src="file:///C:/Users/savri/Desktop/project_sedona/reason2.png" width="800" height="256" alt="Причина 2">
-     </section>
-
-     <section>
-      <ul>
-        <li>
+     <section class="reasons">
+      <ul class="reasons-list">
+        <li class="reasons-item2">
+          <h2>ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</h2>
+          <p>№2</p>
+          <p>ДА,ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО<br> ВЫ ОСМЕЛИТЕСЬ</p>
+      <img src="file:///C:/Users/savri/Desktop/project_sedona/reason2.png" width="800" height="256" alt="Причина 2">
+        </li>
+        <li class="reasons-item">
           <h2>НЕБОЛЬШАЯ<br> ПЛОЩАДЬ</h2>
           <p>№3</p>
           <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ БЛИЗКО</p>
         </li>
-        <li>
+        <li class="reasons-item">
           <h2>КРАСИВАЯ<br> ДОРОГА</h2>
           <p>№4</p>
           <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
         </li>
-        <li>
+        <li class="reasons-item">
           <h2>МАЛО<br> ТУРИСТОВ</h2>
           <p>№5</p>
           <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br> И ТОЛПИТСЯ ТАМ</p>
         </li>
       </ul>
      </section>
-      <h1>ЗАИНТЕРЕСОВАЛИСЬ?</h1>
-      <p>УАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
 
-     <section>
-      <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-      <!-- Здесь будет форма поиска -->
-     </section>
+     <section class="appointment">
+         <h1 class="interest">ЗАИНТЕРЕСОВАЛИСЬ?</h1>
+           <p class="appointment-info">УАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+            <button class="appointment-button" type="submit"><h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2></button>
+              <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="appointment-item">
+                 <label for="appointment-date-in">Дата заезда</label>
+                 <input id="appointment-date-in" type="date" name="date-in" placeholder="24.04.2017">
+                </p>
+                <p class="appointment-item">
+                 <label for="appointment-date-out">Дата выезда</label>
+                 <input id="appointment-date-out" type="date" name="date-out" placeholder="04.07.2017">
+                </p>
+                <p class="appointment-item">
+                 <label for="appointment-number">Взрослые</label>
+                 <input type="number" list="appointment-number" id="appointment-number" name="appointment-number" value="2">
+               </p>
+               <p class="appointment-item">
+                 <label for="appointment-number">Дети</label>
+                 <input type="number" list="appointment-number" id="appointment-number" name="appointment-number" value="0">
+               </p>
+            <button class="appointment-button-find" type="submit"><h2>НАЙТИ</h2></button>
+            </form>
+      </section>
 
     <!-- Карта -->
 
   </main>
 
-  <footer>
+  <footer class="main-footer">
 <h2>#VISITSEDONA<br> ТЕЛ: +7(495) 666-01-66</h2>
 
-<section>
+<section class="footer-social">
   <h2>Давайте дружить!</h2>
   <ul>
     <li>
       <a href="#">Твиттер</a>
     </li>
     <li>
-      <a href="#">Фейсбук</a>
+      <a href="#">
+        <span class="visually-hidden">Фейсбук</span>
+        <svg width="19" height="22" viewBox="0 0 10.15 21.74"><path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07
+          1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#fff"/></svg>
+      </a>
     </li>
     <li>
       <a href="#">Ютуб</a>
@@ -107,7 +136,7 @@
   </ul>
 </section>
 
-<p>
+<p class="footer-copyright">
    WEBSITE BY <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 </p>
 
