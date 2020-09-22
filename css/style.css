@@ -6,7 +6,17 @@
   --basic-silver: #EEEEEE;
   --basic-brown: #766357;
   --basic-white: #ffffff;
+
   --basic-dark-silver: #E5E5E5;
+
+  --basic-natural-blue: #669EC0;
+  --basic-middle-blue: #81B3D2;
+  --basic-dark-blue: #5496BD;
+
+  --basic-natural-brown: #604E43;
+  --basic-dark-brown: #503E33;
+
+
 
   --special: #663d15;
 }
@@ -46,7 +56,7 @@ img {
   /* text-align: center; */
 }
 
-.site-navigation a {
+.site-navigation-item a {
   color: var(--basic-black);
 }
 
@@ -112,13 +122,35 @@ img {
 .content-order {
   background-color: var(--basic-brown);
   color: var(--basic-white);
+  border: none;
 }
+
+.appointment-button:hover,
+.appointment-button:focus  {
+  background-color: var(--basic-natural-brown);
+}
+
+.appointment-button:active {
+  background-color: var(--basic-dark-brown);
+}
+
 
 .appointment-button-find,
 .content-info  {
   background-color: var(--basic-blue);
   color: var(--basic-white);
+  border: none;
 }
+
+.appointment-button-find:hover,
+.appointment-button-find:focus  {
+  background-color: var(--basic-natural-blue);
+}
+
+.appointment-button-find:active {
+  background-color: var(--basic-dark-blue);
+}
+
 
 /* Footer */
 
@@ -156,6 +188,40 @@ img {
 .sort,
 .content {
   background-color: var(--basic-white);
+}
+
+.content-info a:hover,
+.content-info a:focus  {
+  background-color: var(--basic-natural-blue);
+}
+
+.content-info a:active {
+  background-color: var(--basic-dark-blue);
+}
+
+.content-order:hover,
+.content-order:focus  {
+  background-color: var(--basic-natural-brown);
+}
+
+.content-order:active {
+  background-color: var(--basic-dark-brown);
+}
+
+/* page-catalog conteiner */
+
+.content-hotel-name a {
+  color: var(--basic-black);
+}
+
+.content-hotel-name a:hover,
+.content-hotel-name a:focus  {
+  color: var(--basic-middle-blue);
+}
+
+.content-hotel-name a:active {
+  color: var(--basic-black);
+
 }
 
 
