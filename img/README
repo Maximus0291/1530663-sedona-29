@@ -1,14 +1,13 @@
 Папка для изображений.
 
-Лого:
+img\logo.svg
 
-Главная:
-D:\project_sedona\1530663-sedona-29\img\page1\background photo.jpg
-file:///C:/Users/savri/Desktop/project_sedona/reason1.png
-file:///C:/Users/savri/Desktop/project_sedona/reason2.png
+img\background photo.jpg
+img\reason1.png
+img\reason2.png
 
-Каталог:
-D:\project_sedona\1530663-sedona-29\img\catalog\amara.jpg
-D:\project_sedona\1530663-sedona-29\img\catalog\desert.jpg
-D:\project_sedona\1530663-sedona-29\img\catalog\villas.jpg
+
+img\amara.jpg
+img\desert.jpg
+img\villas.jpg
 --
