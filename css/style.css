@@ -48,6 +48,19 @@ img {
   height: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* .container {
   background-image: url("../img/background photo.jpg");
 } */
@@ -115,7 +128,6 @@ img {
 }
 
 
-
 .site-navigation-item:last-child,
 .site-navigation-item:nth-child(3) {
   text-align: right;
@@ -134,18 +146,23 @@ img {
 .main-header-logo {
   position: absolute;
   z-index: 1;
-  margin-left: 571px;
-
+  right: 0;
+  left: 0;
+  width: 138px;
+  margin: auto;
 }
 
 
 /* Welcome */
 
 .welcome {
+  padding-top: 41.5px;
   height: 216px;
   text-align: center;
   color: var(--basic-black);
 }
+
+
 
 /* Features */
 
@@ -163,50 +180,59 @@ height: 330px;
 }
 
 .feature-item {
-  /* text-align: center; */
   color: var(--basic-black);
+  margin-top: 160px;
 }
 
 
 
 /* Reasons */
+
 .reason1 {
-  display: flex;
-  margin: 0;
-  padding: 0;
+ display: grid;
+ grid-template-columns: auto 800px;
+ margin: 0;
+ padding: 0;
 }
 
 .reason-item1 {
-  padding-top: 47px;
+  display: grid;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+  height: 256px;
+}
+
+.reason2 {
+  display: grid;
+  grid-template-columns: auto 400px;
+  margin: 0;
+  padding: 0;
+ }
+
+.reason-item2 {
+  display: grid;
   text-align: center;
   font-size: 14px;
   line-height: 26px;
   background-color: var(--basic-blue);
   color: var(--basic-white);
 
-  width: 400px;
   height: 256px;
 }
 
-.reason-item2 {
-   display: flex;
-  /* text-align: center; */
-  font-size: 14px;
-  line-height: 26px;
-  background-color: var(--basic-blue);
-  color: var(--basic-white);
-
-  width: auto;
-  height: 256px;
-}
 
 .reasons-item {
-  /* text-align: center; */
+  width: auto;
+  height: 256px;
   font-size: 14px;
   line-height: 26px;
   color: var(--basic-black);
   background-color: var(--basic-silver);
 }
+
 .reasons-list{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -223,6 +249,13 @@ height: 330px;
   text-align: center;
   font: inherit;
   background-color: transparent;
+}
+
+/* Appointment button */
+
+.appointment-button {
+  width: 568px;
+  height: 86px;
 }
 
 .appointment-button,
@@ -261,9 +294,22 @@ height: 330px;
 
 /* Footer */
 
-.main-footer {
+.main-footer .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgba(255, 255, 255, 0.9);
-  /* text-align: center; */
+  text-align: center;
+  list-style: none;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright {
+ /* max-width: 150px;
+  margin: 0;*/
+  text-align: center;
 }
 
 /* Filters */
@@ -277,6 +323,10 @@ height: 330px;
 
 
 /* Sort */
+
+.sort {
+  display: flex;
+}
 
 .sort a {
   color: var(--basic-black);
